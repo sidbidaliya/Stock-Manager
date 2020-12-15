@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardBackgroundColor"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/about_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_close"/>
+
+            <TextView
+                android:id="@+id/abt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_developer"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/dev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/abt"
+                android:textAlignment="center"
+                android:text="@string/sidhant_bidaliya"
+                android:textSize="16sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/geu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dev"
+                android:text="@string/graphic_era_deemed_to_be_university_n_b_tech_cse_5th_semester"
+                android:textAlignment="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/sidd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/geu1"
+                android:text="@string/sidd_bidaliya2000_gmail_com"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
